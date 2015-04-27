@@ -1,0 +1,3 @@
+all:
+	if [ -a *.gcda ]; then rm *.gcda; fi;
+	if [ -a *.gcno ]; then rm *.gcno; fi;
