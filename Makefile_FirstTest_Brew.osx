@@ -1,0 +1,11 @@
+BIN = ./output/demo
+CC = g++
+FLAGS = -Wall -pedantic -mmacosx-version-min=10.5 -arch x86_64 -fmessage-length=0 -UGLFW_CDECL -fprofile-arcs -ftest-coverage
+INC = -I/usr/local/include
+LOC_LIB = -lGLEW -lglfw3
+FRAMEWORKS = -framework Cocoa -framework OpenGL -framework IOKit
+SRC = first_test/main.cpp
+
+all:
+	${CC} ${FLAGS} ${FRAMEWORKS} -o ${BIN} ${SRC} ${INC} ${LOC_LIB}
+
