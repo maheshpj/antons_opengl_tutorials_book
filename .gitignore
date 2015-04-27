@@ -1,3 +1,5 @@
 /28_uniform_buffer_object/gl.log
 /28_uniform_buffer_object/cubemap
 /output
+**/*.gcda
+**/*.gcno
