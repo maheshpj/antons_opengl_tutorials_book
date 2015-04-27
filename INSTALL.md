@@ -32,9 +32,9 @@ tags.
 * $ make -f Makefile_Clean_Profiles.osx
 
 ###Running the first_test/main.cpp
-* $ cd to `first_test` dir in `path to your forked clone repo dir`
+* $ cd `path to your forked clone repo dir`
 * $ make -f Makefile_Clean_Profiles.osx
-* $ make -f Makefile_Brew.osx
+* $ make -f `first_test`/Makefile_Brew.osx
 * $ ./output/demo
 
 ###### will return for example:
@@ -46,3 +46,4 @@ OpenGL version supported 4.1 NVIDIA-10.2.7 310.41.25f01
 * $ cd `path to your forked clone repo dir`
 * $ make -f Makefile_Clean_Profiles.osx
 * $ make -f `path_to_example`/Makefile_Brew.osx
+* $ ./output/`exec_for_example` ;;; to run the example
