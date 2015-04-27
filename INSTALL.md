@@ -20,8 +20,7 @@ The Makefiles for OS X have been adapted to link to GLEW and GLFW installed via
 brew above, while generating all output executables in the `./output`
 directory.
 
-The adapated make file is named:Makefile_Brew.osx for all examples except for
-the first driver/OpenGL Version test's make file.
+The adapated make file is:`Makefile_Brew.osx`.
 
 ###Cleaning up *.gcda and *.gcno profile files
 
@@ -33,9 +32,9 @@ tags.
 * $ make -f Makefile_Clean_Profiles.osx
 
 ###Running the first_test/main.cpp
-* $ cd `path to your forked clone repo dir`
+* $ cd to `first_test` dir in `path to your forked clone repo dir`
 * $ make -f Makefile_Clean_Profiles.osx
-* $ make -f Makefile_FirstTest_Brew.osx
+* $ make -f Makefile_Brew.osx
 * $ ./output/demo
 
 ###### will return for example:
