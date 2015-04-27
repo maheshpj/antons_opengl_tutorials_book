@@ -7,11 +7,11 @@ Please note that [$ means Terminal Prompt]
 
 ###Initial Repo Setup
 * $ Fork anton's repo:
-[https://github.com/capnramses/antons\_opengl\_tutorials\_book]
+[https://github.com/capnramses/antons_opengl_tutorials_book]
 * $ Clone your forked repo
-[ex:https://github.com/dmsurti/antons\_opengl\_tutorials\_book]
+[ex:https://github.com/dmsurti/antons_opengl_tutorials_book]
 * $ cd <path to your forked clone repo dir>
-[ex: cd ~/repos/git/antons\_opengl\_tutorials\_book]
+[ex: cd ~/repos/git/antons_opengl_tutorials_book]
 * $ mkdir output ;;; this holds the output of all examples executables
 
 ###About Makefiles for OS X
@@ -30,12 +30,12 @@ will get the profiling warnings related to mismatched counters and corrupt
 tags.
 
 * $ cd <path to your forked clone repo dir>
-* $ make -f Makefile\_Clean\_Profiles.osx
+* $ make -f Makefile_Clean_Profiles.osx
 
 ###Running the first_test/main.cpp
 * $ cd <path to your forked clone repo dir>
-* $ make -f Makefile\_Clean\_Profiles.osx
-* $ make -f Makefile\_FirstTest\_Brew.osx
+* $ make -f Makefile_Clean_Profiles.osx
+* $ make -f Makefile_FirstTest_Brew.osx
 * $ ./output/demo
 
 ###### will return for example:
@@ -45,5 +45,5 @@ OpenGL version supported 4.1 NVIDIA-10.2.7 310.41.25f01
 
 ###Running all the other examples
 * $ cd <path to your forked clone repo dir>
-* $ make -f Makefile\_Clean\_Profiles.osx
-* $ make -f <path\_to\_example>/Makefile_Brew.osx
+* $ make -f Makefile_Clean_Profiles.osx
+* $ make -f <path_to_example>/Makefile_Brew.osx
