@@ -1,0 +1,13 @@
+BIN = ./output/hellot
+CC = gcc
+FLAGS = -Wall -pedantic -mmacosx-version-min=10.5 -arch x86_64 -fmessage-length=0 -UGLFW_CDECL -fprofile-arcs -ftest-coverage
+INC = -I/usr/local/include
+LOC_LIB = -lGLEW -lglfw3
+FRAMEWORKS = -framework Cocoa -framework OpenGL -framework IOKit
+SRC = 00_hello_triangle/main.c
+
+all:
+	if [ -a *.gcda ]; then rm *.gcda; fi;
+	if [ -a *.gcno ]; then rm *.gcno; fi;
+	${CC} ${FLAGS} ${FRAMEWORKS} -o ${BIN} ${SRC} ${INC} ${LOC_LIB}
+
